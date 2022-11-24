@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E999BED8"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="654dp"
+        android:scaleX="1.5"
+        android:scaleY="2"
+        android:text="Enter Your Pet's Year of Birth Or Age of Pet" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="420dp"
+        android:layout_height="317dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginBottom="326dp"
+        app:srcCompat="@drawable/winter_walk_with_dog_flat_color_illustration_hiker_going_with_animal_on_trekking_route_man_with_pet_on_leash_2d_cartoon_characters_with_wintertime_hills_in_snow_on_background_vector" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="89dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="155dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="91dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="163dp"
+        android:ems="10"
+        android:inputType="none" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="582dp"
+        android:layout_marginEnd="128dp"
+        android:background="#00BCD4"
+        android:onClick="Click"
+        android:shadowRadius="10"
+        android:text="Calculate age"
+        app:cornerRadius="50mm" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Unpublished Work © 2022 Aniket Korwar" />
+
+</RelativeLayout>
